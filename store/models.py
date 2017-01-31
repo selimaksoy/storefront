@@ -12,7 +12,7 @@ class Category(models.Model):
     class Meta:
         verbose_name_plural = 'categories'
 
-
+## That is for Product Class
 class Product(models.Model):
     name = models.CharField(max_length=32)
     description = models.TextField()
