@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-
+## That is for Category Class
 class Category(models.Model):
     name = models.CharField(max_length=16)
 
