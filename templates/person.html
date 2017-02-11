@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Store </title>
+    </head>
+    <body>
+      {% for person in people %}
+            <h2>{{ person.given_name }} {{ person.given_surname }}</h2>
+
+                <a href="/product/{{ person.product.id }}">{{ person.product.name }}</a>
+
+        {% endfor %}
+    </body>
+</html>
